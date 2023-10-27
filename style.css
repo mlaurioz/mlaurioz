@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Dancing+Script:wght@600&display=swap');
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'); /* Font Awesome pour les icônes */
+
+body {
+    font-family: times;
+    background-color: #14453D;
+    margin: 0;
+    color: #040940;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Bannière */
+.banner img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+/* Carte */
+.card {
+    background-color: #F9C784;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center; /* centrer le contenu horizontalement */
+}
+
+/* Bouton */
+.btn-blue {
+    padding: 12px 25px;
+    background-color: #8B0000; /* Rouge foncé */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700; /* Roboto Bold */
+    font-size: 1.1em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #641212; /* Variant du rouge foncé */
+    transform: scale(1.05);
+}
+
+/* Conteneur */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centrer le contenu verticalement */
+}
+
+/* Avatar */
+.avatar-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* forme circulaire */
+    border: 3px solid #8B0000; /* bordure rouge foncé */
+}
+
+/* Typographie */
+h4 {
+	color: white;
+	font-family: roboto;
+	font-weight: lighter;
+}
+
+	h3 {
+    font-weight: 700; 
+    font-family: 'roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #8B0000; /* Rouge foncé */
+}
+
+h1 {
+	color:#8B0000;
+	font-family: times;
+}
+
+/* Icône Facebook */
+
+
+

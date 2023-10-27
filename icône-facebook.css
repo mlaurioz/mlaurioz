@@ -1,0 +1,10 @@
+.fa-facebook {
+    font-size: 1.5em;
+    color: #3b5998; /* Couleur typique de Facebook */
+    margin-top: 10px; /* Espacement par rapport au texte */
+}
+
+/* Ajout de symétrie et d'espacement */
+.card h1, .card p, .card h3, .card a {
+    margin: 20px 0;
+}
